@@ -1,17 +1,61 @@
-h1, h2, h3, h4, h5, p {
-  color: white;
-  font-family: Open Sans;
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
 }
 
+h1, h2, h3, h4, h5, p, a {
+  color: darkgray;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+
+ a:hover
+ {
+    color: #a68585;
+ }
+
+ a:active {
+    color: darkred;
+ }
+
+header {
+  background-color: #212121;
+  position: sticky;
+  top: 0;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
 
 .intro {
+  background-color: darkred;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  height:20%;
-  width: 40%;
-  text-align: center;
+  height:50%;
+  width: 50%;
+  max-width: 500px;
+  text-align: justify;
+  text-justify: inter-word;
   margin: auto;
 }
