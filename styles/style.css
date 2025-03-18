@@ -39,6 +39,7 @@ header {
   top: 0;
   z-index: 1;
   box-shadow: 00px 00px 50px 10px black;
+  margin-bottom: 100px;
 }
 
 .flex-header {
@@ -67,16 +68,20 @@ header {
 
 .flex-intro {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .flex-intro > div {
-  margin: 100px;
+  margin: 10px;  
 }
 
 .intro-text {
-  width: 500px;
-  text-align: right;
+  padding: 20px;
+  width: 720px;
+  text-align: center;
+  border-left-style: solid;
   border-right-style: solid;
   border-color: blue;
   border-radius: 1vw;
@@ -84,6 +89,6 @@ header {
 }
 
 .intro-image {
-  width: 500px;
+  height: 400px;
   border-radius: 1vw;
 }
