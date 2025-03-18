@@ -26,11 +26,11 @@ a, a:visited, a:hover, a:active {
 
  a:hover
  {
-    color: #a68585;
+    color: lightsteelblue;
  }
 
  a:active {
-    color: darkred;
+    color: blue;
  }
 
 header {
@@ -53,7 +53,7 @@ header {
 
 #menu-item-home {
   border-bottom-style: solid;
-  border-color: darkred;
+  border-color: blue;
   border-width: 2px;
 }
 
@@ -76,11 +76,9 @@ header {
 
 .intro-text {
   width: 500px;
-  text-align: justify;
-  text-justify: inter-word;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-color: darkred;
+  text-align: right;
+  border-right-style: solid;
+  border-color: blue;
   border-radius: 1vw;
   border-width: 2px;
 }
