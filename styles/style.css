@@ -134,12 +134,13 @@ footer {
   border-top-style: solid;
   border-top-color: darkgray;
   border-width: 1px;
-  padding: 50px;
+  padding: 20px;
 }
 
 .flex-footer {
+  margin: 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   
