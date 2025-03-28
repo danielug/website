@@ -1,3 +1,10 @@
+:root {
+  --backgroundgray: #363636;
+  --bodybackgroundgray: #212121;
+  --linkhovercolor: lightgoldenrodyellow;
+  --linkactivecolor: blue;
+}
+
 html {
     overflow: auto;
 }
@@ -8,7 +15,7 @@ body {
   width: 100vw;
   margin: 0px;
   padding: 0px;
-  background-color: #212121;  
+  background-color: var(--bodybackgroundgray);  
 }
 
 h1, h2, h3, h4, h5, p, a {
@@ -22,15 +29,13 @@ a, a:visited, a:hover, a:active {
   text-decoration: none;
  }
 
- a:hover
- {
-    color: lightgoldenrodyellow;
+ a:hover{
+  color: var(--linkhovercolor);
  }
 
  a:active {
-  color: #ffe34d;
+  color: var(--linkactivecolor);
  }
-
 
 
 header {  
@@ -41,7 +46,7 @@ header {
 }
 
 .header-content-area {  
-  background-color: #363636 ;
+  background-color: var(--backgroundgray);
   box-shadow: 0px 0px 50px 10px black;
 }
 
@@ -102,20 +107,20 @@ header {
 
 .content-entry {
   margin: 20px;
-  background-color: #363636;
+  background-color: var(--backgroundgray);
   border-radius: 25px;
   width: 500px;
 }
 
 .content-entry:hover {
   border-width: 2px;
-  border-color: lightgoldenrodyellow;
+  border-color: var(--linkhovercolor);
   border-style: solid;
   margin: 18px;
 }
 
 .content-entry:active {
-  border-color: #ffe34d;
+  border-color: var(--linkactivecolor);
 }
 
 .content-image {
@@ -138,7 +143,7 @@ header {
 
 footer {
   border-top-style: solid;
-  border-top-color: #ffe34d;
+  border-top-color: darkgray;
   border-width: 1px;
   padding: 20px;
 }
