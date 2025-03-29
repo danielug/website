@@ -74,7 +74,6 @@ header {
 .intro{
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
-  //background-size: 100vw;
   background-position: top;
 }
 
@@ -96,11 +95,8 @@ header {
 .intro-image {
   width: 700px;
   max-width: 100%;
-  //border-radius: 0px 0px 25px 0px;
-  //border-style: solid;
   border-width: 0px 00px 00px 0px;
   box-shadow: 0px 0px 50px 10px var(--mainbackground);
-  //border-color: var(--mainbackground);
 }
 
 .flex-content {
@@ -133,7 +129,6 @@ header {
   width: 100%;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-
 }
 
 .content-text {
@@ -145,7 +140,6 @@ header {
   font-weight: bold;
   text-align: center;
 }
-
 
 footer {
   border-top-style: solid;
@@ -159,8 +153,7 @@ footer {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 .flex-footer > div {
