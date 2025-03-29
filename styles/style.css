@@ -82,14 +82,11 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;  
+  justify-content: flex-start;  
 }
 
-.flex-intro > div {
-  margin: 20px;
-}
-
-.intro-text {  
+.intro-text {
+  margin: auto;
   padding: 10px;
   width: 720px;
   max-width: 100%;
@@ -99,11 +96,11 @@ header {
 .intro-image {
   width: 600px;
   max-width: 100%;
-  border-radius: 25px;
+  border-radius: 0px 0px 25px 0px;
+  border-style: solid;
+  border-width: 0px 10px 10px 0px;
+  border-color: var(--mainbackground);
 }
-
-
-
 
 .flex-content {
   display: flex;
@@ -112,7 +109,6 @@ header {
   justify-content: center;
   align-items: start;
 }
-
 
 .content-entry {
   margin: 20px;
