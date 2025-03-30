@@ -129,7 +129,7 @@ header {
   border-top-style: none;
 }
 
-.flex-content {
+.showcase-flex {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -137,7 +137,7 @@ header {
   align-items: start;
 }
 
-.content-entry {
+.showcase-entry {
   border: 3px double transparent;
   margin: 20px;
   background-color: var(--elementbackground);
@@ -145,26 +145,26 @@ header {
   width: 500px;
 }
 
-.content-entry:hover {
+.showcase-entry:hover {
   border-color: var(--linkhovercolor);
 }
 
-.content-entry:active {
+.showcase-entry:active {
   border-color: var(--linkactivecolor);
 }
 
-.content-image {
+.showcase-entry-image {
   width: 100%;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
 
-.content-text {
+.showcase-entry-text {
   margin: 20px;
   text-align: justify;
 }
 
-.content-title {
+.showcase-entry-title {
   font-weight: bold;
   text-align: center;
 }
