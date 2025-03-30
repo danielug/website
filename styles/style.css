@@ -105,7 +105,7 @@ header {
   display: grid;
   column-gap: 3px;
   grid-template-columns: 1fr 12fr;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .education >div:nth-child(even) { 
