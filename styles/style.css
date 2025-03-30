@@ -99,7 +99,7 @@ header {
   box-shadow: 0px 0px 50px 10px var(--mainbackground);
 }
 
-.education {
+.education-grid {
   width: 1000px;
   max-width: 100%;
   display: grid;
@@ -108,7 +108,7 @@ header {
   margin: 20px auto;
 }
 
-.education >div:nth-child(even) { 
+.education-grid >div:nth-child(even) { 
   text-align: right;
   border-color: blue;
   border-width: 3px;
@@ -116,16 +116,16 @@ header {
   border-top-style: double; 
 }
 
-.education >div{
+.education-grid >div{
   padding: 0px 10px;
 }
 
-.grid-header{ 
+.education-grid-header{ 
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
-.education >div:nth-child(2) { 
+.education-grid >div:nth-child(2) { 
   border-top-style: none;
 }
 
