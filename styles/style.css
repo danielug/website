@@ -111,11 +111,11 @@ header {
 }
 
 .timeline-grid {
-  width: 700px;
+  width: 800px;
   max-width: 100%;
   display: grid;
   column-gap: 3px;
-  grid-template-columns: 1fr 10fr;
+  grid-template-columns: 6em 10fr;
   margin: 20px auto;
   padding: 10px;
 }
@@ -123,6 +123,7 @@ header {
 .timeline-grid-header{ 
   grid-column-start: 1;
   grid-column-end: 3;
+  text-align: center;
 }
 
 .timeline-grid >div:nth-child(even) { 
@@ -130,7 +131,8 @@ header {
   border-color: var(--blue);
   border-width: 3px;
   border-right-style: double;
-  border-top-style: double; 
+  border-top-style: double;
+  text-align: center;
 }
 
 .timeline-grid >div{
@@ -138,7 +140,7 @@ header {
 }
 
 .timeline-grid >div:nth-child(2) { 
-  border-top-style: none;
+  border-top-style: none;  
 }
 
 .showcase-flex {
