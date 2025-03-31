@@ -38,14 +38,6 @@ a, a:visited, a:hover, a:active {
   color: var(--blue);
  }
 
-ul.a {
-  list-style-position: outside;
-}
-
-ul.b {
-  list-style-position: inside;
-}
-
 main {
   width: 1920px;
   max-width: 100%;
