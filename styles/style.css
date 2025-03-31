@@ -112,6 +112,11 @@ header {
   padding: 10px;
 }
 
+.timeline-grid-header{ 
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
 .timeline-grid >div:nth-child(even) { 
   text-align: right;
   border-color: var(--blue);
@@ -122,11 +127,6 @@ header {
 
 .timeline-grid >div{
   padding: 0px 10px;
-}
-
-.timeline-grid-header{ 
-  grid-column-start: 1;
-  grid-column-end: 3;
 }
 
 .timeline-grid >div:nth-child(2) { 
