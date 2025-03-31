@@ -96,8 +96,14 @@ header {
   box-shadow: 0px 0px 50px 10px var(--mainbackground);
 }
 
-.education-grid {
-  width: 1000px;
+.biography {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.timeline-grid {
+  width: 700px;
   max-width: 100%;
   display: grid;
   column-gap: 3px;
@@ -106,7 +112,7 @@ header {
   padding: 10px;
 }
 
-.education-grid >div:nth-child(even) { 
+.timeline-grid >div:nth-child(even) { 
   text-align: right;
   border-color: var(--blue);
   border-width: 3px;
@@ -114,16 +120,16 @@ header {
   border-top-style: double; 
 }
 
-.education-grid >div{
+.timeline-grid >div{
   padding: 0px 10px;
 }
 
-.education-grid-header{ 
+.timeline-grid-header{ 
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
-.education-grid >div:nth-child(2) { 
+.timeline-grid >div:nth-child(2) { 
   border-top-style: none;
 }
 
