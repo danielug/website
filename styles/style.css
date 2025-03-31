@@ -3,7 +3,7 @@
   --mainbackground: #212121;
   --bodybackground: black;
   --linkhovercolor: lightgoldenrodyellow;
-  --linkactivecolor: blue;
+  --blue: blue;
 }
 
 html {
@@ -35,7 +35,7 @@ a, a:visited, a:hover, a:active {
  }
 
  a:active {
-  color: var(--linkactivecolor);
+  color: var(--blue);
  }
 
 main {
@@ -65,10 +65,7 @@ header {
 }
 
 .menu-item {
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 0px 70px;
 }
 
 .intro{
@@ -104,13 +101,14 @@ header {
   max-width: 100%;
   display: grid;
   column-gap: 3px;
-  grid-template-columns: 1fr 12fr;
+  grid-template-columns: 1fr 10fr;
   margin: 20px auto;
+  padding: 10px;
 }
 
 .education-grid >div:nth-child(even) { 
   text-align: right;
-  border-color: blue;
+  border-color: var(--blue);
   border-width: 3px;
   border-right-style: double;
   border-top-style: double; 
@@ -150,7 +148,7 @@ header {
 }
 
 .showcase-entry:active {
-  border-color: var(--linkactivecolor);
+  border-color: var(--blue);
 }
 
 .showcase-entry-image {
