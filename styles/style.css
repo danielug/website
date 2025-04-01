@@ -112,10 +112,14 @@ header {
   padding: 10px;
 }
 
-.timeline-grid-header{ 
+.timeline-grid-header { 
   grid-column-start: 1;
   grid-column-end: 3;
   text-align: center;
+}
+
+.timeline-grid-header >h2{ 
+  color: lightgoldenrodyellow;
 }
 
 .timeline-grid >div:nth-child(even) { 
