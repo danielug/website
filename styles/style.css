@@ -56,7 +56,16 @@ header {
 }
 
 .menu-item {
+  border-bottom: 4px double transparent;
   padding: 0px 70px;
+}
+
+#menu-item-home{
+  padding: 10px 50px;
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
 }
 
 .menu-item:hover {
