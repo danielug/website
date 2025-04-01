@@ -26,17 +26,8 @@ h1, h2, h3, h4, h5, p, a, li {
 }
 
 a, a:visited, a:hover, a:active {
-  color: inherit;
   text-decoration: none;
- }
-
- a:hover{
-  color: var(--linkhovercolor);
- }
-
- a:active {
-  color: var(--blue);
- }
+}
 
 main {
   width: 1920px;
