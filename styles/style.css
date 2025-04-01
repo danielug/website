@@ -127,8 +127,8 @@ header {
   border-color: var(--blue);
   border-right-width: 1px;
   border-right-style: solid;
-  border-top-width: 5px;
-  border-top-style: double;
+  border-top-width: 1px;
+  border-top-style: solid;
   text-align: center;
 
   box-shadow:inset -14px 0px 10px -15px #0099cc;
