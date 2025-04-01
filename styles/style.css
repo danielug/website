@@ -177,7 +177,7 @@ header {
 }
 
 .showcase-entry {
-  border: 3px solid var(--mainbackground);
+  border: 4px solid var(--mainbackground);
   margin: 20px;
   background-color: var(--elementbackground);
   border-radius: 25px;
