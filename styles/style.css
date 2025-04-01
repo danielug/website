@@ -68,6 +68,20 @@ header {
   padding: 0px 70px;
 }
 
+.menu-item:hover {
+  border-bottom-style: double;
+  border-color: var(--linkhovercolor);
+  border-width: 4px;
+  box-shadow:inset 0px -14px 10px -15px var(--linkhovercolor);
+}
+
+.menu-item:active {
+  border-bottom-style: double;
+  border-color: var(--blue);
+  border-width: 4px;
+  box-shadow:inset 0px -14px 10px -15px #0099cc;
+}
+
 .intro{
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
@@ -163,7 +177,7 @@ header {
 }
 
 .showcase-entry {
-  border: 5px double transparent;
+  border: 3px solid var(--mainbackground);
   margin: 20px;
   background-color: var(--elementbackground);
   border-radius: 25px;
@@ -171,11 +185,14 @@ header {
 }
 
 .showcase-entry:hover {
+  border-style: double;
   border-color: var(--linkhovercolor);
 }
 
 .showcase-entry:active {
+  border-style: double;
   border-color: var(--blue);
+  box-shadow: 0px 0px 10px 0px var(--blue);
 }
 
 .showcase-entry-image {
