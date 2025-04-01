@@ -125,10 +125,20 @@ header {
 .timeline-grid >div:nth-child(even) { 
   text-align: right;
   border-color: var(--blue);
-  border-width: 3px;
-  border-right-style: double;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-top-width: 3px;
   border-top-style: double;
   text-align: center;
+
+  box-shadow:inset -14px 0px 10px -15px #0099cc;
+}
+
+.timeline-grid >div:nth-child(odd) {
+  border-color: var(--blue);
+  border-width: 1px;
+  border-left-style: solid;
+  box-shadow:inset 14px 0px 10px -15px #0099cc;
 }
 
 .timeline-grid >div{
@@ -136,7 +146,12 @@ header {
 }
 
 .timeline-grid >div:nth-child(2) { 
-  border-top-style: none;  
+  border-top-style: none; 
+}
+
+.timeline-grid >div:nth-child(1) { 
+  box-shadow: none;
+  border-left-style: none;
 }
 
 .showcase-flex {
