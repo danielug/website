@@ -106,7 +106,7 @@ header {
   width: 800px;
   max-width: 100%;
   display: grid;
-  column-gap: 3px;
+  column-gap: 2px;
   grid-template-columns: 6em 10fr;
   margin: 20px auto;
   padding: 10px;
@@ -127,7 +127,7 @@ header {
   border-color: var(--blue);
   border-right-width: 1px;
   border-right-style: solid;
-  border-top-width: 3px;
+  border-top-width: 5px;
   border-top-style: double;
   text-align: center;
 
