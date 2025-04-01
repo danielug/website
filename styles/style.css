@@ -163,7 +163,7 @@ header {
 }
 
 .showcase-entry {
-  border: 3px double transparent;
+  border: 5px double transparent;
   margin: 20px;
   background-color: var(--elementbackground);
   border-radius: 25px;
