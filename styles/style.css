@@ -79,7 +79,7 @@ header {
   border-bottom-style: double;
   border-color: var(--blue);
   border-width: 4px;
-  box-shadow:inset 0px -14px 10px -15px #0099cc;
+  box-shadow:inset 0px -14px 10px -14px #0099cc;
 }
 
 .intro{
@@ -144,15 +144,13 @@ header {
   border-top-width: 1px;
   border-top-style: solid;
   text-align: center;
-
-  box-shadow:inset -14px 0px 10px -15px #0099cc;
 }
 
 .timeline-grid >div:nth-child(odd) {
   border-color: var(--blue);
   border-width: 1px;
   border-left-style: solid;
-  box-shadow:inset 14px 0px 10px -15px #0099cc;
+  box-shadow:inset 14px 0px 10px -14px #0099cc;
 }
 
 .timeline-grid >div{
