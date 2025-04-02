@@ -1,6 +1,6 @@
 #menu-item-home {
   border-bottom-style: double;
-  border-bottom-color: #0099cc;
+  border-bottom-color: var(--blue);
   border-bottom-width: 4px;
   box-shadow:inset 0px -14px 10px -15px #0099cc;
 }
