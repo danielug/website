@@ -54,22 +54,21 @@ header {
 
 .flex-header {  
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
 }
 
 .menu-item {
-  border-bottom: 4px double transparent;
-  padding: 0px 2%;
+  border-bottom: 4px double transparent;  
+  padding: 2vh 2%;
 }
 
-#menu-item-home{
-  padding: 10px 50px;
-  background-image: url("../images/home.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 60%;
+.menu-item-img {
+  height: 10vh;
+  min-height: 50px;
+  max-height: 80px;
 }
+
 
 .menu-item:hover {
   border-bottom-style: double;
