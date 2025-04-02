@@ -60,13 +60,13 @@ header {
 
 .menu-item {
   border-bottom: 4px double transparent;  
-  padding: 2vh 2%;
+  padding: 20px 40px;
 }
 
 .menu-item-img {
-  height: 5vh;
-  min-height: 50px;
-  max-height: 80px;
+  height: 30px;
+ // min-height: 30px;
+  //max-height: 80px;
 }
 
 
