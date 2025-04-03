@@ -4,3 +4,18 @@
   border-bottom-width: 4px;
   box-shadow:inset 0px -14px 10px -15px #0099cc;
 }
+
+.paintings-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.paintings-flex >div {
+  width: 800px;
+}
+
+.painting{
+  width: 100%;
+}
