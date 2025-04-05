@@ -151,7 +151,6 @@ header {
   border-color: var(--blue);
   border-width: 1px;
   border-left-style: solid;
-  box-shadow:inset 14px 0px 10px -14px #0099cc;
 }
 
 .timeline-grid >div{
@@ -163,7 +162,6 @@ header {
 }
 
 .timeline-grid >div:nth-child(1) { 
-  box-shadow: none;
   border-left-style: none;
 }
 
