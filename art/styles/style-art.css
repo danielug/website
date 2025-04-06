@@ -5,17 +5,29 @@
   box-shadow:inset 0px -14px 10px -15px #0099cc;
 }
 
-.paintings-flex {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+.painting-entry {
+  width: 60%;
+  position: relative;
+  //background-color: green;
+  margin: 100px auto;
 }
 
-.paintings-flex >div {
-  width: 800px;
+.painting-background { 
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
 }
 
-.painting{
-  width: 100%;
+.painting {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  //top: 0;
+  bottom: 10%;
+  left: 20px;
+  margin: auto;  
+  z-index: 1;
+  box-shadow: 20px 20px 40px 0px var(--mainbackground);
 }
+
