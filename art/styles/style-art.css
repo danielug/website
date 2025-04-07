@@ -6,15 +6,15 @@
 }
 
 .painting-entry {
-  width: 60%;
+  width: 80%;
   position: relative;
   //background-color: green;
-  margin: 100px auto;
+  margin: 100px 0px 100px auto;
 }
 
 .painting-background { 
-  width: 80%;
-  height: auto;
+  width: 75%;
+  //height: auto;
   display: block;
   margin-left: auto;
 }
@@ -22,11 +22,12 @@
 .painting {
   position: absolute;
   width: 40%;
-  height: auto;
+  height: 80%;
   //top: 0;
   bottom: 10%;
   left: 20px;
-  margin: auto;  
+  margin: auto; 
+  object-fit: contain; 
   z-index: 1;
   box-shadow: 20px 20px 40px 0px var(--mainbackground);
 }
