@@ -113,7 +113,8 @@ header {
 }
 
 .intro{
-  position: relative;  
+  position: relative;
+  min-height: 300px; 
 }
 
 .big-title {
