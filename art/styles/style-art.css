@@ -24,11 +24,10 @@
   width: 75%;
   margin: 0;
   //height: 30%;
-  padding: 1em 0;
+  padding: 2%;
   backdrop-filter: blur(20px);
   color: var(--linkhovercolor);
-  text-align: center;
-  vertical-align: middle;
+  text-align: right;
 }
 
 .painting-container {
