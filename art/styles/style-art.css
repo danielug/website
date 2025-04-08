@@ -17,6 +17,20 @@
   margin-left: auto;
 }
 
+.painting-legend {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 75%;
+  margin: 0;
+  //height: 30%;
+  padding: 1em 0;
+  backdrop-filter: blur(20px);
+  color: var(--linkhovercolor);
+  text-align: center;
+  vertical-align: middle;
+}
+
 .painting-container {
   position: absolute;
   width: 40%;
@@ -35,4 +49,6 @@
   object-fit: contain;
   box-shadow: 20px 20px 40px 0px var(--mainbackground);
 }
+
+
 
