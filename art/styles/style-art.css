@@ -13,9 +13,9 @@
   padding: 50px 0px;
   margin: 50px 30px;
   backdrop-filter: blur(50px);
-  border-bottom-style: double;
-  border-bottom-color: var(--blue);
-  border-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: darkgray;
+  border-width: 1px;
 }
 
 .painting-description-entry{
@@ -35,6 +35,9 @@
   width: 1000px;
   position: relative;
   margin: 0px;
+  border-right-style: double;
+  border-right-color: var(--blue);
+  border-width: 4px;
 }
 
 .painting-background { 
