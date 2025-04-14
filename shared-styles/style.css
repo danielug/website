@@ -112,9 +112,16 @@ header {
   box-shadow:inset 0px -14px 10px -14px #0099cc;
 }
 
-.intro{
+.introduction-space{
   position: relative;
   min-height: 300px; 
+}
+
+.introduction-image {
+  width: 700px;
+  max-width: 100%;
+  border-width: 0px 00px 00px 0px;
+  box-shadow: 0px 0px 50px 10px var(--mainbackground);
 }
 
 .big-title {
@@ -129,14 +136,14 @@ header {
 
 }
 
-.flex-intro {
+.introduction-flex {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: flex-start; 
 }
 
-.intro-text {
+.introduction-text {
   margin: 0px auto;
   top: 10px;
   padding: 10px;
@@ -145,21 +152,17 @@ header {
   text-align: center;
 }
 
-.intro-image {
-  width: 700px;
-  max-width: 100%;
-  border-width: 0px 00px 00px 0px;
-  box-shadow: 0px 0px 50px 10px var(--mainbackground);
-}
-
-.biography {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+#section-biography {
   backdrop-filter: blur(50px);
   border-bottom-style: solid;
   border-bottom-color: darkgray;
   border-width: 1px;
+}
+
+.biography-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
 }
 
 .timeline-grid {
@@ -248,11 +251,8 @@ header {
 }
 
 footer {
-  border-top-style: solid;
-  border-top-color: darkgray;
-  border-width: 1px;
+  background-color: var(--elementbackground);
   padding: 20px;
-  backdrop-filter: blur(50px);
 }
 
 .flex-footer {
