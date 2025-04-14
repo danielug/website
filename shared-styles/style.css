@@ -159,18 +159,12 @@ header {
   border-width: 1px;
 }
 
-.biography-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;  
-}
-
 .timeline-grid {
-  width: 800px;
+  width: 1000px;
   max-width: 100%;
   display: grid;
   column-gap: 2px;
-  grid-template-columns: 6em 10fr;
+  grid-template-columns: 5.5em 10fr;
   margin: 20px auto;
   padding: 10px;
 }
