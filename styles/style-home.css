@@ -14,12 +14,10 @@
 
 .timeline-grid {
   width: 1000px;
-  max-width: 100%;
+  max-width: 95%;
   display: grid;
-  column-gap: 2px;
   grid-template-columns: 5.5em 10fr;
-  margin: 20px auto;
-  padding: 10px;
+  margin: 50px auto;
 }
 
 .timeline-grid-header { 
