@@ -6,7 +6,7 @@
 }
 
 #section-paintings{
-  backdrop-filter: blur(20px);  
+  backdrop-filter: blur(50px);  
   border-bottom-style: solid;
   border-bottom-color: darkgray;
   border-width: 1px;
@@ -61,7 +61,8 @@
   text-align: right;
   border-top-style: solid;
   border-top-color: var(--blue);
-  border-width: 1px;
+  border-top-width: 1px;
+  backdrop-filter: blur(20px); 
 }
 
 .painting-container {
