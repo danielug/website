@@ -17,6 +17,8 @@
 	<link rel="stylesheet" href="styles/style-art.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../shared-scripts/image_preview.js"></script>
 </head>
 
 <body>
@@ -54,10 +56,10 @@
 					<p>Coffee cups filled with coffee on a coffee bean splashing into a puddle of coffee. Inspired from Nespresso's <a href="https://www.nespresso.com/ch/en/order/accessories/original#range_Pixie_collection" target="_blank" style="color: var(--linkhovercolor); text-decoration: underline"> PIXIE </a> collection. Yes, I like coffee ;)</p>					
 				</div>
 				<div class="painting-entry">
-					<img class="painting-background" src="images/coffee-background.JPG">
+					<img class="painting-background image-preview" src="images/coffee-background.JPG">
 					<h3 class="painting-legend">acrylic on canvas</h3>
 					<div class="painting-container">
-						<img class="painting" src="images/coffee.JPG">
+						<img class="painting image-preview" src="images/coffee.JPG">
 					</div>
 				</div>
 			</div>
@@ -71,7 +73,7 @@
 					<img class="painting-background" src="images/entanglement-background.JPG">
 					<h3 class="painting-legend">acrylic on canvas</h3>
 					<div class="painting-container">
-						<img class="painting" src="images/entanglement.JPG">
+						<img class="painting image-preview" src="images/entanglement.JPG">
 					</div>
 				</div>
 			</div>
@@ -155,6 +157,11 @@
 			</div>
 		</div>
 	</footer>
+
+	<div class="hud">
+		<button id="close-hud">X</button>
+		<img id="hud-image" />
+	</div>
 </main>
 
 	
