@@ -17,7 +17,7 @@ body {
   width: 100vw;
   margin: 0px;
   padding: 0px;
-  background-color: var(--bodybackground);  
+  background-color: var(--bodybackground);
 }
 
 h1, h2, h3, h4, h5, p, a, li {
@@ -62,9 +62,8 @@ main {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-position: top;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-color: var(--mainbackground);
-  
 }
 
 header {  
@@ -74,6 +73,14 @@ header {
   width: 100%;
   background-color: var(--elementbackground);
   box-shadow: 0px 0px 50px 10px black;
+}
+
+#phantom {
+  flex-grow: 1;
+  height: min(40vw, 200px);
+  flex-shrink: 0;
+  vertical-align: top;
+  width: 500px;
 }
 
 .header-content-area {  
@@ -114,39 +121,56 @@ header {
 
 .introduction-space{
   position: relative;
-  min-height: 300px; 
+  min-height: 350px;
 }
 
 .introduction-image {
-  width: 700px;
+  width: 500px;
   max-width: 100%;
   border-width: 0px 00px 00px 0px;
   box-shadow: 0px 0px 50px 10px var(--mainbackground);
 }
 
+#title-container {
+  /* min-width: 250px; */
+  flex-grow: 1;
+}
+
+#main-title {
+  resize: horizontal;
+  font-size: clamp(min(10vw, 200px), min(80vw, 138px), 27.5vw);
+}
+
 .big-title {
-  position: absolute;
+  /* position: absolute; */
   right: 10px;
-  top: 0px;  
-  font-size: 15em;
-  margin: 0px;
+  top: 0px;
+  /* font-size: 100%; */
+  /* margin: 0px; */
   color: var(--linkhovercolor);
   font-weight: 200;
   mix-blend-mode: overlay;
-
+  /* float: right; */
+  /* margin: 0 auto; */
+  /* text-align: right; */
+  margin-top: 0;
+  margin-right: 0;
+  /* text-align: right; */
+  /* right: 0; */
 }
 
 .introduction-flex {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  justify-content: flex-start; 
+  justify-content: flex-start;
+  max-height: 350px;
 }
 
 .introduction-text {
   margin: 0px auto;
   top: 10px;
-  padding: 10px;
+  /* padding: 10px; */
   width: 780px;
   max-width: 100%;
   text-align: center;
