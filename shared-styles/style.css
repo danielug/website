@@ -59,7 +59,7 @@ main {
   width: var(--content-width);
   max-width: 100%;
   margin: 0 auto;
-  background-image: url("../images/background.png");
+  background-image: url("../shared-images/background.png");
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
