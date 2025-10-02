@@ -5,6 +5,20 @@
   box-shadow:inset 0px -14px 10px -15px #0099cc;
 }
 
+#title-container {
+  display: table;
+  position: absolute;
+  height: 70%;
+  width: 100%;
+}
+
+#main-title {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: clamp(min(13vw, 200px), min(13vw, 138px), 27.5vw);
+}
+
 #section-biography {
   backdrop-filter: blur(50px);
   border-bottom-style: solid;
