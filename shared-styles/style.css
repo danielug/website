@@ -91,17 +91,17 @@ header {
 .flex-header {  
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .menu-item {
   border-bottom: 4px double transparent;  
-  padding: 15px 40px;
+  padding: 15px 5vw;
 }
 
 .menu-item-img {
   width: 7vw;
-  min-width: 30px;
+  //min-width: 30px;
   max-width: 60px;
 }
 
