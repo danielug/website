@@ -121,17 +121,17 @@ header {
 .introduction-space{
   position: sticky;
   right: 50px;
-  top: 150px;
+  //top: 50px;
   height: 500px;
   background-blend-mode: overlay;
 }
 
-#title-container {
-  
-}
-
-#main-title {
+.main-title {
   font-size: clamp(min(10vw, 200px), min(80vw, 138px), 27.5vw);
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: clamp(min(13vw, 200px), min(13vw, 138px), 27.5vw);
 }
 
 .big-title {

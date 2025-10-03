@@ -16,13 +16,6 @@ main {
   width: 100%;
 }
 
-#main-title {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  font-size: clamp(min(13vw, 200px), min(13vw, 138px), 27.5vw);
-}
-
 #section-biography {
   backdrop-filter: blur(50px);
   border-bottom-style: solid;
