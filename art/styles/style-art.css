@@ -1,3 +1,7 @@
+main {
+  background-image: url("https://raw.githubusercontent.com/danielug/website/main/art/images/background-art.png");
+}
+
 #title-container {
   display: table;
   position: absolute;

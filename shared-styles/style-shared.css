@@ -59,7 +59,6 @@ main {
   width: var(--content-width);
   max-width: 100%;
   margin: 0 auto;
-  background-image: url("https://raw.githubusercontent.com/danielug/website/main/shared-images/background.png");
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;

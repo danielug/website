@@ -1,3 +1,6 @@
+main {
+  background-image: url("https://raw.githubusercontent.com/danielug/website/main/images/background.png");
+}
 #menu-item-home {
   border-bottom-style: double;
   border-bottom-color: var(--blue);
