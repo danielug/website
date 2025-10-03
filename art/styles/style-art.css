@@ -52,8 +52,6 @@
   width: 1000px;
   position: relative;
   margin: 0px;
-  border-right-style: double;
-  border-right-color: var(--blue);
   border-width: 4px;
 }
 
