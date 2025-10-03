@@ -92,10 +92,24 @@
   position: absolute;
   max-width:100%;
   max-height: 100%;
-  bottom: 0;
-  right: 0;
+  bottom: 4px;
+  right: 4px;
   object-fit: contain;
   box-shadow: 20px 20px 40px 0px var(--mainbackground);
+}
+
+.painting:hover {
+  border: 4px double var(--linkhovercolor);
+  bottom: 0px;
+  right: 0px;
+  border-width: 4px;
+}
+
+.painting:active {
+  border: 4px double var(--blue);
+  bottom: 0;
+  right: 0;
+  box-shadow: 0px 0px 10px 0px var(--blue);
 }
 
 
