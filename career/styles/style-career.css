@@ -70,6 +70,13 @@ main {
   border-left-style: none;
 }
 
+#section-showcase {
+  backdrop-filter: blur(50px);
+  border-bottom-style: solid;
+  border-bottom-color: darkgray;
+  border-width: 1px;
+}
+
 .showcase-flex {
   margin: 20px;
   display: flex;

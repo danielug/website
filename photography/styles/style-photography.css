@@ -37,6 +37,13 @@ main {
   max-width: 100%;
 }
 
+#section-portfolio {
+  backdrop-filter: blur(50px);
+  border-bottom-style: solid;
+  border-bottom-color: darkgray;
+  border-width: 1px;
+}
+
 .portfolio-flex {
   display: flex;
   flex-wrap: wrap;
