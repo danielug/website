@@ -1,6 +1,7 @@
 main {
   background-image: url("https://raw.githubusercontent.com/danielug/website/main/images/background.png");
 }
+
 #menu-item-home {
   border-bottom-style: double;
   border-bottom-color: var(--blue);
@@ -8,92 +9,36 @@ main {
   box-shadow:inset 0px -14px 10px -15px #0099cc;
 }
 
-#section-biography {
-  backdrop-filter: blur(50px);
-  border-bottom-style: solid;
-  border-bottom-color: darkgray;
-  border-width: 1px;
+#title-container {
+  display: table;
+  position: absolute;
+  height: 70%;
+  width: 100%;
 }
 
-.timeline-grid {
-  width: 1000px;
-  max-width: 95%;
-  display: grid;
-  grid-template-columns: 5.5em 10fr;
-  margin: 50px auto;
-}
-
-.timeline-grid-header { 
-  grid-column-start: 1;
-  grid-column-end: 3;
+#main-title {
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
+  font-size: clamp(min(13vw, 200px), min(13vw, 138px), 27.5vw);
 }
 
-.timeline-grid-header >h2 { 
-  color: lightgoldenrodyellow;
+.introduction-image {
+  width: 500px;
+  max-width: 100%;
+  border-width: 0px 00px 00px 0px;
+  box-shadow: 0px 0px 50px 10px var(--mainbackground);
 }
 
-.timeline-grid >div:nth-child(even) { 
-  text-align: right;
-  border-color: var(--blue);
-  border-right-width: 4px;
-  border-right-style: double;
-  border-top-width: 1px;
-  border-top-style: solid;
-  text-align: center;
-}
-
-.timeline-grid >div{
-  padding: 0px 10px;
-}
-
-.timeline-grid >div:nth-child(2) { 
-  border-top-style: none; 
-}
-
-.timeline-grid >div:nth-child(1) { 
-  border-left-style: none;
-}
-
-.showcase-flex {
-  margin: 20px;
+.about-flex {
   display: flex;
   flex-wrap: wrap;
-  align-items: start;
-  justify-content: center;  
-}
-
-.showcase-entry { 
+  align-items: center;
+  justify-content: center;
   margin: 20px;
-  background-color: var(--elementbackground);
-  border-radius: 25px;
-  width: 550px;
-  overflow: hidden;
 }
 
-.showcase-entry:hover {
-  border: 4px double var(--linkhovercolor);
-  margin: 16px;
-}
-
-.showcase-entry:active {
-  border: 4px double var(--blue);
-  margin: 16px;
-  box-shadow: 0px 0px 10px 0px var(--blue);
-}
-
-.showcase-entry-image {
-  width: 100%;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
-
-.showcase-entry-text {
+.about-flex-entry {
+  max-width: 100%;
   margin: 20px;
-  text-align: justify;
-}
-
-.showcase-entry-title {
-  font-weight: bold;
-  text-align: center;
 }
