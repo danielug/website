@@ -22,10 +22,11 @@
 .portfolio-flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   width: fit-content;
   //background-color: blue;
   width: 95%;
+  margin: auto;
 }
 
 .portfolio-entry { 
