@@ -120,7 +120,11 @@ header {
 
 .introduction-space{
   position: relative;
-  height: 500px;
+  //height: 500px;
+  width: 100%;
+}
+
+.introduction-image{
   width: 100%;
 }
 
@@ -129,6 +133,7 @@ header {
   //font-size: clamp(min(10vw, 200px), min(80vw, 138px), 27.5vw);
   font-size: clamp(min(13vw, 200px), min(13vw, 138px), 27.5vw);
   right: 0px;
+  top:0px;
   font-weight: 100;
   float: right;
   margin-top: 0.25em;

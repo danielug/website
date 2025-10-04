@@ -1,7 +1,3 @@
-main {
-  background-image: url("https://raw.githubusercontent.com/danielug/website/main/career/images/background-career.png");
-}
-
 #menu-item-career {
   border-bottom-style: double;
   border-bottom-color: var(--blue);
@@ -10,10 +6,10 @@ main {
 }
 
 .big-title {
-  color: black;
+  color: #383E42;
 }
 
-.introduction-image {
+.me-image {
   width: 500px;
   max-width: 100%;
   border-width: 0px 00px 00px 0px;

@@ -1,7 +1,3 @@
-main {
-  background-image: url("https://raw.githubusercontent.com/danielug/website/main/art/images/background-art.png");
-}
-
 #menu-item-art {
   border-bottom-style: double;
   border-bottom-color: var(--blue);
