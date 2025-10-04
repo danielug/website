@@ -119,36 +119,20 @@ header {
 }
 
 .introduction-space{
-  position: sticky;
-  right: 50px;
-  //top: 50px;
+  position: relative;
   height: 500px;
-  background-blend-mode: overlay;
-}
-
-.main-title {
-  //font-size: clamp(min(10vw, 200px), min(80vw, 138px), 27.5vw);
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  font-size: clamp(min(13vw, 200px), min(13vw, 138px), 27.5vw);
+  width: 100%;
 }
 
 .big-title {
-  
-  /* font-size: 100%; */
-  /* margin: 0px; */
-  color: var(--linkhovercolor);
+  position: absolute;
+  //font-size: clamp(min(10vw, 200px), min(80vw, 138px), 27.5vw);
+  font-size: clamp(min(13vw, 200px), min(13vw, 138px), 27.5vw);
+  right: 0px;
   font-weight: 100;
-  //mix-blend-mode: overlay;
   float: right;
-  /* margin: 0 auto; */
-  /* text-align: right; */
-  margin-top: 0;
-  margin-right: 0;
-  /* text-align: right; */
-  /* right: 0; */
-  z-index: 0;
+  margin-top: 0.25em;
+  margin-right: 10px;
 }
 
 .introduction-text {

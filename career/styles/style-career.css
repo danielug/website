@@ -9,11 +9,8 @@ main {
   box-shadow:inset 0px -14px 10px -15px #0099cc;
 }
 
-#title-container {
-  display: table;
-  position: absolute;
-  height: 70%;
-  width: 100%;
+.big-title {
+  color: black;
 }
 
 .introduction-image {
