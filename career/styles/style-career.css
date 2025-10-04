@@ -6,7 +6,8 @@
 }
 
 .big-title {
-  color: #383E42;
+  color: black;
+  font-size: min(20vw, 200px);
 }
 
 .me-image {

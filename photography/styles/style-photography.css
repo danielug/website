@@ -7,6 +7,7 @@
 
 .big-title {
   color: aquamarine;
+  font-size: min(12vw, 200px);
 }
 
 #section-terms {
