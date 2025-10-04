@@ -127,7 +127,7 @@ header {
 }
 
 .main-title {
-  font-size: clamp(min(10vw, 200px), min(80vw, 138px), 27.5vw);
+  //font-size: clamp(min(10vw, 200px), min(80vw, 138px), 27.5vw);
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -138,8 +138,8 @@ header {
   
   /* font-size: 100%; */
   /* margin: 0px; */
-  color: var(--blue);
-  font-weight: 200;
+  color: var(--linkhovercolor);
+  font-weight: 100;
   //mix-blend-mode: overlay;
   float: right;
   /* margin: 0 auto; */
