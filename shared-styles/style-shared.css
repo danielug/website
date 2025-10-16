@@ -132,10 +132,11 @@ header {
   position: absolute;
   right: 0px;
   top:0px;
-  font-weight: 110;
+  font-weight: 130;
   float: right;
   margin-top: 0px;
   margin-right: 10px;
+  text-shadow: 4px 5px 10px black;
 }
 
 .introduction-text {
