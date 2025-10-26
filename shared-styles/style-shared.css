@@ -162,8 +162,7 @@ footer {
 }
 
 .flex-footer > div {
-  margin-left: 20px;
-  margin-right: 20px;  
+  margin: 0px min(3vw, 25px);
 }
 
 .social-image {
